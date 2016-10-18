@@ -1,3 +1,28 @@
+ul.sidebar {
+  list-style: none;
+  float: left;
+  width: 25%;
+  background-color: #d3d3d3;
+  border-radius: 5%;
+  border: 2px;
+  padding: 20px;
+}
+
+li,{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1,
+h3 {
+  font-family: 'Changa One', cursive;
+  text-align: center;
+}
+
+.about {
+  font-family: 'Quicksand', sans-serif;
+  float: right;
+}
+
 #show {
   display: none;
   }
@@ -5,4 +30,8 @@
   .click:hover {
   text-decoration: underline;
 
+}
+
+.float {
+  float: right;
 }
