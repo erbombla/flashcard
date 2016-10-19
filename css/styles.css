@@ -1,15 +1,17 @@
 ul.sidebar {
   list-style: none;
-  float: left;
   width: 25%;
+  float: left;
   background-color: #d3d3d3;
   border-radius: 5%;
   border: 2px;
   padding: 20px;
 }
 
-li,{
+li,
+p{
   font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
 }
 
 h1,
@@ -18,20 +20,25 @@ h3 {
   text-align: center;
 }
 
-.about {
+.click:hover {
+  text-decoration: underline;
+}
+
+.click1:hover {
+  text-decoration: underline;
+}
+
+#about {
   font-family: 'Quicksand', sans-serif;
-  float: right;
+  float: right; 
 }
 
 #show {
   display: none;
+  font-family: 'Quicksand', sans-serif;
   }
 
-  .click:hover {
-  text-decoration: underline;
-
-}
-
-.float {
-  float: right;
-}
+#show1 {
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    }
